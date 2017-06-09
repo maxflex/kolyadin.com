@@ -1,0 +1,17 @@
+// @import "node_modules/bulma/bulma";
+@import "variables";
+@import "animations";
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  animation: innershadow 100s linear infinite;
+}
+
+body {
+  background-color: black;
+  animation: bgchange 10s linear infinite;
+}
